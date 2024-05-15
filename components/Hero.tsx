@@ -29,6 +29,7 @@ const Hero = () => {
             y: -20,
             opacity: 0
         }}
+        viewport={{ once: true }}
         whileInView={{
             y: 0,
             opacity: 1
@@ -85,7 +86,7 @@ const Hero = () => {
         className='object-cover grayscale filter'
       /> */}
 
-<motion.div
+                <motion.div
                     className='absolute top-4 left-16'
                     animate={{ 
                         y: [0, 10, 0],
