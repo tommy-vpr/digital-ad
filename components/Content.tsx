@@ -57,8 +57,8 @@ const Content = () => {
                     >
                         Claim 20% off
                 </Link>
-                <p>
-                    your first order now! Claim Now Button
+                <p className='text-2xl'>
+                    your first order now!
                 </p>
             </div>
             <div className='w-full mt-24 md:mt-0 md:w-1/2 relative'>

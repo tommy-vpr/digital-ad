@@ -73,7 +73,7 @@ const Hero = () => {
             rounded-full mt-8 hover:bg-indigo-800 transition duration-150 
             w-full text-sm md:text-lg'
             >
-                LEARN MORE
+                Learn More
             </motion.div>
         </Link>
      </div>
